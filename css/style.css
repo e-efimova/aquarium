@@ -1,0 +1,261 @@
+@font-face {
+	font-family: 'Droid Sans'; 
+	font-style: normal; 
+	font-weight: bold;
+	src: url(../media/Шрифты/Droid_Sans/DroidSans-Bold.ttf); 
+}
+
+@font-face {
+	font-family: 'Droid Sans'; 
+	font-style: normal; 
+	font-weight: normal;
+	src: url(../media/Шрифты/Droid_Sans/DroidSans.ttf); 
+}
+
+@font-face {
+	font-family: 'Oleo Script'; 
+	font-style: normal; 
+	font-weight: bold;
+	src: url(../media/Шрифты/Oleo_Script/OleoScript-Bold.ttf); 
+}
+
+@font-face {
+	font-family: 'Oleo Script'; 
+	font-style: normal; 
+	font-weight: normal;
+	src: url(../media/Шрифты/Oleo_Script/OleoScript-Regular.ttf); 
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 1200px;
+	background-color: #001b31;
+	font-family: 'Droid Sans';
+}
+
+h2 {
+	font-family: 'Oleo Script';
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+header {
+	width: 100%;
+	background: url(../media/header-background.png);
+}
+
+.head {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1050px;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	margin: auto;
+}
+
+.nav span {
+	content: url(../эффекты/1.png);
+
+}
+
+
+.title-header h1 {
+	font-family: 'Oleo Script';
+	font-size: 40px;
+	font-weight: normal;
+	color: white;
+}
+
+.gallery {
+	width: 100%;
+	margin: 5px auto 30px auto;
+}
+
+.fish {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.greeting {
+	color: white;
+	text-align: center;
+}
+
+.container2 {
+	width: 35%;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.greeting h1 {
+	font-family: 'Oleo Script';
+	font-size: 45px;
+	margin-bottom: 5px;
+}
+
+.greeting h3 {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+
+.description {
+	width: 100%;
+	margin: 0 auto 50px auto;
+	max-width: 1050px;
+	background: url(../media/wrapper1-background.png);
+	color: white;
+}
+
+.card {
+	width: 370px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+}
+
+article {
+	font-size: 11px;
+}
+
+.container-card {
+	display: flex;
+	justify-content: space-around;
+}
+
+.card a {
+	text-decoration: none;
+	font-family: 'Oleo Script';
+	color: white;
+	font-size: 16px;
+}
+
+#pic {
+	float: left;
+	padding-top: 20px;
+}
+
+#text {
+	margin-left: 100px;
+}
+
+
+.container-card2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.other {
+	color: white;
+	max-width: 1050px;
+	width: 100%;
+	margin: 0 auto 50px auto;
+
+}
+
+.welcome {
+	width: 330px;
+}
+
+.other img {
+	width: 340px;
+	margin-bottom: 15px;
+}
+
+.news {
+	width: 220px;
+}
+
+.new1 {
+	margin-bottom: 70px;
+}
+
+.date {
+	color: #42aaff;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.reviews {
+	width: 230px;
+	display: flex;
+	flex-direction: column;
+}
+
+.reviews article {
+	margin-bottom: 10px;
+}
+
+.reviews img {
+	width: 70px;
+	height: 70px;
+}
+
+.card2 {
+	height: 80px;
+}
+
+#pic1 {
+	float: left;
+}
+
+#text1 {
+	font-size: 11px;
+	margin-left: 90px;
+margin-top: 10px;
+}
+
+#other {
+	width:  85%;
+	padding-top: 20px;
+}
+
+footer {
+	position: relative;
+	height: 60px;
+	background: url(../media/header-background.png);
+}
+
+.support {
+	color: white;
+	font-size: 11px;
+}
+.support a {
+	color: white;
+	font-size:  11px;
+}
+
+.copy {
+	color: white;
+	font-size:  11px;	
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 24px;
+}
+
+#up{
+	position: absolute;
+	left: 95%;
+	top: -10px;
+}
